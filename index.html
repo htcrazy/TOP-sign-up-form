@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script src="external.js" defer></script>
+  <body>
+
+    <div class="container">
+      
+      <div class="left-side">
+        <div class="spacer"></div>
+        <div class="banner gentrify">
+          <img src="odin-lined.png" class="icon">
+          ODIN
+        </div>
+        <div class="image-footer gentrify">
+          Photo by <a href="https://unsplash.com/@haliewestphoto" class="gentrify">Halie West</a> on 
+          <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" class="gentrify">Unsplash</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <p class="intro text">
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+          Sign up <i>now</i> to get started.<br><br>
+          You <i>know</i> you want to.
+        </p>
+
+        <div class="shadowBoxing">
+          <p class="text">Let's do this!</p>
+
+          <form id="fillThisIn">
+            <div class="form-row">
+              <div>
+                <label for="firstName">FIRST NAME</label><br>
+                <input id="firstName" required>
+                <p class="form-err" id="first-err">&nbsp;</p>
+              </div>
+
+              <div>
+                <label for="lastName">LAST NAME</label><br>
+                <input id="lastName" required>
+                <p class="form-err" id="last-err">&nbsp;</p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="email">EMAIL</label><br>
+                <input id="email" required>
+                <p class="form-err" id="email-err">&nbsp;</p>
+              </div>
+              
+              <div>
+                <label for="phone">PHONE NUMBER</label><br>
+                <input id="phone" required>
+                <p class="form-err" id="phone-err">&nbsp;</p>
+              </div> 
+            </div>
+
+            <div class="form-row" id="pwBox">
+              <div>
+                <label for="password">PASSWORD</label><br>
+                <input id="password" type="password" required>
+                <p class="form-err" id="password-err">&nbsp;</p>
+              </div>
+
+              <div>
+                <label for="password-confirm">CONFIRM PASSWORD</label><br>
+                <input id="password-confirm" type="password" required>
+                <p class="form-err">&nbsp;</p>
+              </div>
+            </div>
+
+            <div>
+              <input type="checkbox" id="showHide">
+              <label for='showHide'>Hide/show password</label>
+            </div>
+          </form>
+        </div>
+
+        <div class="outro">
+          <button id="submitMe">Create Account</button>
+          <p class="stopWastingMyTime">
+            Already have an account? <span class="sewage" onclick='alert("That link does nothing.")'>Log in</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,156 @@
+@font-face {
+    font-family: odinFont;
+    src: url(Norse-Bold.otf);
+  }
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+label {
+    font-size: .9rem;
+    color: rgb(50, 50, 50);
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left-side {
+    position: fixed;
+    left: 0px;
+    background-image: url(leaf.avif);
+    background-size: auto 100%;
+    width: 30vw;
+    height: 100vh;
+}
+
+.right-side {
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+
+.spacer {
+    height: 20vh;
+}
+
+.banner {
+    display: flex;
+    font-family: odinFont;
+    font-size: 8vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1vh;
+}
+
+.icon {
+    height: 12vh;
+}
+
+.image-footer {
+    position: absolute;
+    bottom: 1vh;
+    font-size: 1vh;
+    width: 30vw;
+    text-align: center;
+}
+
+.gentrify {
+    color:  white;
+}
+
+.text {
+    padding-left: 32vw;
+    padding-right: 2vw;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+    margin: 0;
+    padding-top: 12vh;
+    padding-bottom: 5vh;
+}
+
+#fillThisIn {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32vw;
+    padding-right: 2vw;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-row {
+    display: flex;
+    gap: 6vh;
+}
+
+.form-err {
+    margin: 0;
+    padding-bottom: 1vh;
+    color: #c40505;
+    font-size: .7rem;
+}
+
+.shadowBoxing {
+    padding: 1vh 0vh;
+    box-shadow: 3px 4px 7px #CCCCCC;
+    background-color: white;
+}
+
+.outro {
+    padding-left: 32vw;
+    padding-right: 2vw;
+    padding-top: 3vh;
+}
+
+button {
+    background-color: #596D48;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1vh 1.5vw;
+    box-shadow: 3px 4px 7px #CCCCCC;
+}
+
+button:active {
+    background-color: #485C37;
+}
+
+.stopWastingMyTime {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.sewage {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.sewage:hover {
+    text-decoration: underline;
+}
+
+input {
+    outline: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 2px 3px #CCCCCC;
+}
+
+.error:focus,
+.error {
+    border: 1px solid #c40505;
+}
